@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maïmouna Coulibaly — Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <nav>
+    <a class="nav-logo" href="index.html">MC_</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="about.html">À propos</a></li>
+      <li><a href="skills.html">Compétences</a></li>
+      <li><a href="projects.html">Projets</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-bg-circle"></div>
+    <div class="hero-bg-circle2"></div>
+
+    <div class="hero-content">
+      <div class="hero-tag">Étudiante en Informatique de Gestion</div>
+      <h1 class="hero-title">
+        Solutions <em class="text-gradient">numériques</em><br>
+        au service des<br>
+        organisations.
+      </h1>
+      <p class="hero-subtitle">
+        Bonjour, je suis <strong>Maïmouna Coulibaly</strong> — étudiante à l'UCAO Sénégal,
+        passionnée par l'informatique de gestion, l'analyse de données et le développement web.
+        Je conçois des solutions qui améliorent la performance des entreprises.
+      </p>
+      <div class="hero-cta">
+        <a href="projects.html" class="btn-primary">Voir mes projets →</a>
+        <a href="contact.html" class="btn-outline">Me contacter</a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="avatar-frame">
+        <div class="avatar-bg"></div>
+
+        <!-- ZONE PHOTO -->
+        <div class="avatar-photo-zone">
+          <img src="images/photo.jpg" alt="Photo de Maïmouna Coulibaly" class="avatar-photo"
+            onerror="this.style.display='none';document.querySelector('.avatar-initials').style.display='flex';" />
+          <div class="avatar-initials">MC</div>
+        </div>
+        <!-- FIN ZONE PHOTO -->
+
+        <div class="avatar-badge floating">
+          <span class="avatar-badge-icon">🎓</span>
+          Licence Informatique de Gestion<br>
+          UCAO, Dakar — Sénégal
+        </div>
+        <div class="avatar-tag-top floating-reverse">📍 Dakar, Sénégal</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="stats-bar">
+    <div class="stat-item">
+      <span class="stat-number">5</span>
+      <span class="stat-label">Projets réalisés</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">3</span>
+      <span class="stat-label">Technologies</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">2025</span>
+      <span class="stat-label">Baccalauréat</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">100%</span>
+      <span class="stat-label">Motivée</span>
+    </div>
+  </div>
+
+  <!-- PRÉSENTATION -->
+  <section class="section">
+    <div class="section-header fade-up">
+      <span class="section-num">01</span>
+      <h2 class="section-title">Qui suis-je ?</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start;" class="two-col-section">
+      <div class="fade-up">
+        <p style="color:#6b6b7a;line-height:1.85;font-size:1rem;margin-bottom:1.2rem;">
+          Étudiante à l'Université Catholique de l'Afrique de l'Ouest (UCAO) au Sénégal,
+          je poursuis une licence en <strong style="color:#1e1e1e;">Informatique de Gestion</strong>.
+          Passionnée par les technologies de l'information et leur application dans le monde de l'entreprise,
+          je développe des compétences en programmation, bases de données, analyse de données
+          et gestion des systèmes d'information.
+        </p>
+        <p style="color:#6b6b7a;line-height:1.85;font-size:1rem;">
+          Je m'intéresse particulièrement à la manière dont l'informatique peut améliorer
+          la performance et la prise de décision dans les entreprises. Sérieuse, motivée
+          et curieuse, je suis toujours prête à apprendre et à relever de nouveaux défis.
+        </p>
+        <a href="about.html" class="btn-outline" style="margin-top:2rem;display:inline-flex;">En savoir plus →</a>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:1rem;" class="fade-up">
+        <div class="card" style="padding:1.2rem 1.5rem;">
+          <div style="font-size:1.5rem;margin-bottom:0.5rem;">💻</div>
+          <h4 style="font-weight:700;margin-bottom:0.4rem;">Développement web</h4>
+          <p style="color:#6b6b7a;font-size:0.87rem;line-height:1.6;">HTML, CSS, JavaScript — conception de pages web
+            fonctionnelles et esthétiques.</p>
+        </div>
+
+        <div class="card" style="padding:1.2rem 1.5rem;">
+          <div style="font-size:1.5rem;margin-bottom:0.5rem;">🤝</div>
+          <h4 style="font-weight:700;margin-bottom:0.4rem;">Gestion de projet</h4>
+          <p style="color:#6b6b7a;font-size:0.87rem;line-height:1.6;">Travail en équipe, organisation, gestion des
+            systèmes d'information.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OBJECTIF -->
+  <section class="section"
+    style="background:#fdf0f5;border-top:1px solid rgba(107,45,78,0.12);border-bottom:1px solid rgba(107,45,78,0.12);">
+    <div class="section-header fade-up">
+      <span class="section-num">02</span>
+      <h2 class="section-title">Mon objectif</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="card fade-up" style="max-width:780px;padding:2.5rem;">
+      <div style="font-size:3rem;margin-bottom:1.2rem;line-height:1;">🎯</div>
+      <p
+        style="font-family:'Playfair Display',serif;font-size:1.3rem;line-height:1.65;font-style:italic;color:#1e1e1e;">
+        "Devenir une professionnelle compétente capable de concevoir et de mettre en œuvre
+        des solutions informatiques efficaces pour répondre aux besoins des organisations."
+      </p>
+      <div
+        style="margin-top:1.5rem;padding-top:1.5rem;border-top:1px solid rgba(107,45,78,0.12);color:#6b6b7a;font-size:0.88rem;">
+        — Maïmouna Coulibaly, étudiante en Licence Informatique de Gestion
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETS PREVIEW -->
+  <section class="section">
+    <div class="section-header fade-up">
+      <span class="section-num">03</span>
+      <h2 class="section-title">Projets récents</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="projects-grid">
+      <div class="project-card fade-up">
+        <div class="project-img" style="background:linear-gradient(135deg,#f5dce8,#e8cedd);">🏢</div>
+        <div class="project-body">
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">CSS</span></div>
+          <div class="project-title">Page entreprise fictive</div>
+          <p class="project-desc">Mise en page et design d'une page présentant une entreprise fictive : services, équipe
+            et contacts.</p>
+          <a href="projects.html" class="project-link">Voir le projet →</a>
+        </div>
+      </div>
+
+      <div class="project-card fade-up">
+        <div class="project-img" style="background:linear-gradient(135deg,#fdf0f5,#f0d4e2);">📋</div>
+        <div class="project-body">
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span>
+          </div>
+          <div class="project-title">To-Do List</div>
+          <p class="project-desc">Application de gestion de tâches : ajout, suppression et marquage des tâches comme
+            terminées.</p>
+          <a href="projects.html" class="project-link">Voir le projet →</a>
+        </div>
+      </div>
+
+      <div class="project-card fade-up">
+        <div class="project-img" style="background:linear-gradient(135deg,#f5dce8,#dcc0d4);">🎓</div>
+        <div class="project-body">
+          <div class="project-tags"><span class="tag">JS</span><span class="tag">LocalStorage</span></div>
+          <div class="project-title">Gestion d'étudiants</div>
+          <p class="project-desc">Système d'ajout, affichage et suppression d'informations d'étudiants avec stockage
+            local.</p>
+          <a href="projects.html" class="project-link">Voir le projet →</a>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align:center;margin-top:3rem;" class="fade-up">
+      <a href="projects.html" class="btn-outline">Tous les projets →</a>
+    </div>
+  </section>
+
+  <footer>
+    <span class="footer-copy">© 2025 Maïmouna Coulibaly. Tous droits réservés.</span>
+    <div class="footer-social">
+      <a href="https://github.com/mounacoulibalym-sudo" class="social-link" title="GitHub" target="_blank">GH</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
